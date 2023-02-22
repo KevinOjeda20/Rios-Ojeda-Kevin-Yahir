@@ -142,3 +142,39 @@ strong{
     font-weight: 400; 
 }
 /*Fin css*/
+
+/*Inicio de login*/
+.login{
+    /*Ancho del area*/
+    width: 100%;
+    /* ancho maximo */
+    max-width: 1000px;
+    /* se centra el texto y la imagen*/
+    margin:auto;
+}
+
+/* Modificaciones las imagenes*/
+.login img{
+    /*Tamaño de la imagen */
+    width: 300px;
+    /*Comando para que el texto se acomede alrededor de la imagen */
+    float: left;
+    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-right: 20px;
+    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-bottom: 10px;
+}
+/*Modifica los parrafos*/
+.login p{
+    /* Dimencion de la letra*/
+    font-size: 18px;
+    /* Grueso de la letra*/
+    font-weight: 300;
+}
+/*Modifica el titulo*/
+.title{
+    /* Dimencion de la letra*/
+    font-size: 30px;
+    /* Grueso de la letra*/
+    font-weight: 400; 
+}
