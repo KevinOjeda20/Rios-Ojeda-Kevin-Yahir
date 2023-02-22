@@ -1,0 +1,52 @@
+html{
+    font-size: 20px;/*pxquiere decir que "pixeles: el tamaño de la fuente base es ahora de 10 pixeles de altura */
+    font-family: "Open Sans",sans-serif;/*Este debe ser el resto del resultado que obtuviste de google fonts*/
+}
+
+h1{
+    font-size:40px;
+    text-align:center;
+
+}
+
+p{
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 0px;
+}
+
+strong{
+    color:tomato
+}
+/*imagenes de html */ 
+.img_html{
+    display: flex;
+    justify-content: center;
+}
+/*se les asigna un tamaño y un margen de separacion en cada imagen de html*/ 
+.imghtml{
+    width: 350px;
+    margin:0 20px;
+}
+/*imagenes de github */
+.img_github{
+    display: flex;
+    justify-content: center;
+}
+/*se les asigna un tamaño y un margen de separacion en cada imagen de github*/ 
+.github{
+    width: 350px;
+    margin:0 20px;
+}
+/*imagenes de css */
+.img_css{
+    display: flex;
+    justify-content: center;
+}
+/*se les asigna un tamaño y un margen de separacion en cada imagen de css*/ 
+.imgcss{
+    width: 400px;
+    margin:0 20px;
+}
+
+
