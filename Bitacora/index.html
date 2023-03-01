@@ -1,24 +1,78 @@
-<html>
-<head> 
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css">
-<link href="styles/style.css" rel="stylesheet" type="text/css">
-</head>
+<!--Nota-->
+<!-- Toda etiqueta tiene un inicio y un final  por ejemplo "<h1> </h1>
+se les pone un / enseguida del nombre de la etiqueta para indicar que se cierra 
+esa etiqueta, todo lo que este dentro de una etiqueta se modifica dependiendo de cual etiqueta se use,
+pero en algunas etiquetas no aplica "-->
 
-<title>
-Bitacora
-</title>
+<!--Inicio de nuestro documento-->
+<!--Indico que es un documento html-->
+<html>
+
+<!-- head contiene toda la informacion sobre nuestro documento -->
+<head> 
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css">
+
+<!--Este link conecta con nuestro archivo CSS por medio de una busqueda 
+en este caso el nombre de la carpeta donde esta situado nuestro archivo CSS y el nombre
+de nuestro archivo CSS-->
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+
+<!--En este link indicamos que en mi carpeta imagenes el archivo bloc es un icono
+esto sirve para implementar un icono a la pagina-->
 <link rel="icon" href="imagenes/bloc.ico">
 
+<!--Titulo de nuestra pagina-->
+<title> Bitacora </title>
+
+<!--Aqui termina nuestro head-->
+</head>
+
+
+<!--body representra todo el contenido de nuestra pagina
+(solo puede existir uno)-->
 <body>
 
+<!--hr sirve para separar los temas de  nustro sitio web 
+con una linea horizontal negra-->
 <hr>
+
+<!--h1 sirve para crear nuestros titulos-->
+<!--align nos sirve para poder posicionar nuestro subtitulo
+a la derecha, isquierda o en el centro, en este caso esta en el centro-->
 <h1 align="center">Bitacora de clase</h1>
+
+<!--Cerramos nustra etiquta para la separacion del tema-->
 <hr/>
+
+<!--br nos sirve para hacer un salto de linea en nustro texto-->
+<!--Algunas etiquetas no tiene un cierre ya que insertan "un elemento 
+en un lugar específico" estas etiquetas se les llama "etiquetas huerfanas",
+como en este caso br--> 
 <br>
 
-<dive class="imagen-html">
+<!--dive es un "contenedor de bloque" ocupa todo el ancho de la pagina aqui contiene
+las imagenes, titulos y parrafos -->
+<!--Le asigno la clase "contenedor html "-->
+<!--class sirve como un separador ya que a la hora de usar CSS o JavaScript
+podemos modificar un elemento en espesifico con solo agregar una clase
+(todo lo que este dentro de la clase se modifica en CSS o JavaScript en un documento aparte)-->
+<dive class="caja-html">
+    <!--img nos permite implementar una imagen en nustra pagina,
+    src es una ruta para encontrar mi imagen que quiero poner, la ruta 
+    que deve seguir es: el nombre de la carpeta (donde esta mi imagen) y nombre de la imagen 
+    a compáñado del formato en que este en este caso es .jpg -->
     <img src="imagenes/html5.jpg">
-    <h1 class="title"> Html5 </h1> <h3 align="left">1/2/2023</h3>
+    <!--Asignamos el titulo de nuestro tema y le asigno una clase, creamos nuestra 
+    fecha con h3 pra que sea mas pequeño que un h1  nuestra fecha y la aliniamos
+    a la izquierda  -->
+    <h1 class="titulo1"> Html5 </h1> <h3 align="left">1/2/2023</h3>
+    <!--P, esta etiqueta nos sirve para agregar parrafos a nuestra pagina web-->
+    <!--strong es otra etiqueta que nos sirve para resaltar cosas importantes del texto 
+    lo que este dentro de strong sen torna de colo negro por default pero se
+    puede cambiar el color-->
+
+    <!--Creamos nuestro primer parrafo-->
     <p >
     Que es Html?, Html es un <strong>estandar </strong> y que es un estandar?, un
     estandar son <strong> reglas </strong>, por ejemplo: cuidar la estructura 
@@ -26,8 +80,10 @@ Bitacora
     y si contiene imagenes estas se acomoden de manera correcta
     al dispositivo eso es un  Estandar <strong> que sea 
     amigable con los usuarios, eso es HTML.</strong>
+     <!--Cerramos nuestro primer parrafo -->
     </p>
 
+    <!--Creamos el segundo parrafo -->
     <p>
     Html significa <strong> Hyper Text Markup Language </strong> o 
     en español Lenguaje de Hipertexto Marcado <strong>
@@ -36,15 +92,30 @@ Bitacora
     <strong> etiquetas </strong> y que es una etiqueta?, es un codigo
     para dar <strong> estructura y desplegar  </strong> una pagina web,
     por ejemplo: su contenido como <strong> parrafos, imagenes, titulos, etc.</strong>
+    <!--Cerramos nuestro segundo parrafo -->
     </p>
+    
 
+<!--Cierro mi div -->
+</dive>
+
+ <!--Salto de tema -->
 <hr>
+ <!--Cerramos el salto de tema  -->
 </hr>
+ <!--Salto de parrafo-->
 <br>
 
+<!--Creamos un segundo div-->
+<!--Le asigno la clase "github "-->
 <div class="github">
+    <!--Utilizo otro img para otra imagen,
+     y le indico la ruta a src -->
     <img src="imagenes/github1.jpg">
-    <h1 class="title2"> GITHUB </h1> <h3>2/2/2023</h3> 
+    <!--Asignamos el titulo de nuestro tema y le asigno una clase tambien creamos nuestra fecha 
+    con h3 para que sea menor a un h1 y lo alineamos a la izquierda  -->
+    <h1 class="titulo2"> GITHUB </h1> <h3 align="left">2/2/2023</h3> 
+    <!--Creo mi parrafo-->
     <p> 
     <strong> GITHUB </strong> es una de las principales plataformas para crear proyectos
     abiertos de herramientas y aplicaciones y se caracteriza por sus 
@@ -53,55 +124,211 @@ Bitacora
     pero que son los repositorios? <strong> los repositorios contienen todos los archivos de 
     un proyecto sean codigos, carpetas, etc</strong>, y github tiene 2 opciones para los repositorios, <strong>publico y privado </strong>
     dependiendo de si trabajas en <strong>equipo o solo.</strong>
+    <!--Cierro mi parrafo-->
     </p>
-        
+    
+      
+    <!--Creo mi segundo parrafo -->
     <p>
     Y como su nombre indica utiliza <strong> un sistema de control de verciones
     Git </strong> un sistema de gestion de verciones con el cual 
     los desarrolladores pueden <strong> administrar las verciones de sus proyectos </strong>
     de cada una de las nuevas verciones que sacan de sus aplicaciones para 
     evitar confuciones.
+    <!--Cierro mi segundo parrafo-->
     </p>
+    
+
+<!--Cierro mi segundo div -->
 </div>
 
-<hr> 
+<!--creo mi linea de separacion-->
+<hr>
+<!--Cierro mi linea de separacion--> 
 </hr>
+
+<!--Hago mi salto de parrafo-->
 <br>
 
+<!--Creamos un tercer div-->
+<!--Le asigno la clase "css "-->
 <div class="css">
+    <!--Utilizo otro img para otra imagen,
+     y le indico la ruta a src-->
     <img src="imagenes/css1.jpg">
-    <h1 class="title 3">CSS</h1> <h3>9/2/2023</h3>
+    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
+    a la izquiuerda -->
+    <h1 class="titulo3">CSS</h1> <h3 align="left">9/2/2023</h3>
+    <!--Creo mi parrafo-->
     <p>
     Css en sus siglas en ingles para <strong> hojas de estilo en cascada,</strong>
     es un lenguaje que maneja el diseño y presentacion de las paginas web, es decir,<strong>
     como lucen cuando un usuario las visita, son capas de "maquillaje"
     para el sitio web, colores, y lo hace de forma intuitiva y funciona junto con html.</strong>
+     <!--Cierro mi parrafo-->
     </p>
-        
+       
+    <!--Creo mi segundo parrafo-->
     <p>
     Css funciona como <strong>cajas</strong> en las que contiene diferentes elementos como el <strong>titulo, el contenido de 
     la pagina y imagenes</strong>, define <strong> cajas rentangulades </strong>, incluyendo sus
     rellenos y margenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual,
     Tambien <strong>no</strong> es un lenguaje de programacion, es un <strong> lenguaje de hojas de estilo</strong> y eso 
     modifica todos los archivos de html.
+    <!--Cierro mi segundo parrafo-->
     </p>
+
+<!--Cierro mi tercer div-->
 </div>
 
+<!--Creo mi linea de separacion-->
 <hr> 
+<!--Cierro mi linea de separacion-->
 </hr>
+
+
+<!--Hago mi salto de parrafo-->
 <br>
+
+<!--Creamos un cuarto div (cuando creamos varios div estos se apilaran uno en sima de otro)-->
+<!--Le asigno la clase "login "-->
 <dive class="login">
+    <!--Utilizo otro img para otra imagen,
+     y le indico la ruta a src  donde encontrar la imagen -->
     <img src="imagenes/login.jpg">
-    <h1 class="title"> Login </h1> <h3 align="left">20/2/2023</h3>
+    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
+    a la izquiuerda -->
+    <h1 class="titulo4"> Login </h1> <h3 align="left">20/2/2023</h3>
+    <!--Creo mi parrafo-->
     <p >
-        Login, un login es muy <strong>generico </strong> lo mas basico a la hora de creear una pagina web, ¿pero que es un login?
-        un login es la <strong> clasica pantalla donde te piden un usuario y una cotraseña para poder registrarte en una pagina web </strong> 
-        esta sirve como un <strong>intermedio</strong> entre crear un perfil y la pagina de inicio, tambien un login tiene que tener un
-        boton de <strong>registro y un hipervinculo (son aquellos parrafos que cuentan con un color diferente y puedes darles clic)</strong> 
-        que te redirrecionan a otra pagina en caso de no contar con un usuario y contraseña 
-        y sele llama <strong> formularios</strong> que trendras que llenar una serie de datos para llevar a cabo tu registro.
-    
+        Login, un login es muy <strong>generico </strong> lo mas basico a la hora de creear
+        una pagina web, ¿pero que es un login? un login es la <strong> clasica pantalla donde 
+        te piden un usuario y una cotraseña para poder registrarte en una pagina web </strong> 
+        esta sirve como un <strong>intermedio</strong> entre crear un perfil y la pagina de 
+        inicio, tambien un login tiene que tener un boton de <strong>registro y un hipervinculo 
+        (son aquellos parrafos que cuentan con un color diferente y puedes darles clic)</strong> 
+        que te redirrecionan a otra pagina en caso de no contar con un usuario y contraseña y sele 
+        llama <strong> formularios</strong> que trendras que llenar una serie de datos para llevar 
+        a cabo tu registro.
+    <!--Cierro mi parrafo-->
     </p>
+
+<!--Cierro mi cuarto div -->
+</dive>  
+
+<!--Hago muchos seltos de parrafo para que no este muy junto mi texto del 
+anterior-->
+<br>
+<br>
+<br>
+
+<!--Creo mi linea de separacion-->
+<hr> 
+<!--Cierro mi linea de separacion-->
+</hr>
+
+<!--Saltos de linea-->
+<br>
+<br>
+<br>
+<!--Creamos un quinto div-->
+<!--Le asigno la clase "contraseña "-->
+<dive class="contraseña">
+    <!--Utilizo otro img para otra imagen,
+     y le indico la ruta a src donde encontrar la imagen -->
+    <img src="imagenes/contraseña.jpg">
+    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
+    a la izquiuerda -->
+    <h1 class="titulo5"> Contraseña </h1> <h3 align="left">22/2/2023</h3>
+    <!--Creamos nuestro parrafo-->
+    <p >
+    El dia de hoy hisimos un pequeño formulario para que el usurio pueda 
+    recuperar su contraseña en caso de que se le olvide de la contraseña.
+    <!--Cerramos nuestro parrafo-->
+    </p>
+
+<!--Cierro my quinto div-->
 </dive>
+
+<!--Hago muchos saltos de parrafo para que no este muy junto mi texto del 
+anterior-->
+<br>
+<br>
+<br>
+<br>
+
+<!--Creo mi linea de separacion-->
+<hr> 
+<!--Cierro mi linea de separacion-->
+</hr>
+<!--saltos de parrafo-->
+<br>
+<br>
+
+<!--Creamos un sexto div-->
+<div class="proyecto">
+    <!--Utilizo varios img para poner varias imagenes,
+     y le indico la ruta a src  donde encontrar la imagen -->
+    <img src="imagenes/proyecto2.jpg">
+    <img src="imagenes/login.jpg">
+    <img src="imagenes/contraseña.jpg">
+    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
+    a la izquiuerda -->
+    <h1 class="titulo6"> Proyecto web </h1> <h3 align="left">23/2/2023</h3>
+    <p>
+    El dia de hoy el profesor nos pido que ya estuvira listo nuestro <strong>registro de usuario, login y el
+    formulario para la recuperacion de contraseña,</strong> yo lo hise por medio de un codigo de verificacion
+    el profe nos pidio estos avances para el dia de hoy. 
+    </p>
+
+<!--Cierro my sexto div--> 
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+</hr>
+
+
+<!--Creamos un septimo div-->
+<div class="examen">
+    <!--Utilizo varios img para poner varias imagenes,
+     y le indico la ruta a src  donde encontrar la imagen -->
+    <img src="imagenes/help.jpg">
+    <img src="imagenes/nekoarc.jpg">
+    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
+    a la izquiuerda -->
+    <h1 class="titulo7"> Proyecto web </h1> <h3 align="left">27/2/2023</h3>
+    <!--Creamos nustro parrafo-->
+    <p>
+        El dia de hoy el profesor nos ayudo a dar un repaso de los temas que vendran en el examen 
+        por ejemplo: el profesor nos explico que es HTML5, HTML5 es un <strong> lenguaje estructurado
+        de etiquetas </strong>, o tambien que es CSS?, que vendria siendo una <strong> hoja de estilo
+        estructurada y el diseño a un sitio web, </strong> tambien que son las cajas?, las cajas es cada 
+        uno de los componentes es como una caja por ejemplo: <strong>las etiquetas "h1" que solo afecta a 
+        los titulos o "p" que solo afecta a los parrafos son varias cajas y cada uno tiene sus atributos 
+        que estos son los que modifican a cada una de las etiquetas anteriores esto se hace por medio de CSS 
+        </strong>
+    <!--Cerramos nuestro parrafo-->
+    </p>
+
+<!--Cerramos nuestro septimo div-->
+</div>
+
+<!--Creramos nuestro body-->
 </body>
+<!--Cerramos nuestro html-->
 </html>
