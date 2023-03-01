@@ -1,0 +1,180 @@
+html{
+    font-size: 20px;/*pxquiere decir que "pixeles: el tamaño de la fuente base es ahora de 10 pixeles de altura */
+    font-family: "Open Sans",sans-serif;/*Este debe ser el resto del resultado que obtuviste de google fonts*/
+}
+/* Modifica los parrafos en general */
+p{
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 0px; 
+}
+
+/*Nos permite acomodar el texto de nuestra pagina mediante el margen
+podemos modificar el tamaño del margen de la izquierda y derecha 
+mediante pixeles */
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+/* Nos permite dar color a las palabras que estan subrayadas*/
+strong{
+    color:tomato
+}
+
+/*Selector de todos los elementos */
+*{
+    /*Permite hacer el margen en genral de los 4 lados de un elemento*/
+    margin:0;
+    /*Crea un relleno para los bordes*/
+    padding: 0;
+    /*calcula el ancho y alto de un elemento*/
+    box-sizing: border-box;
+    /* Fuente de la letra*/
+    font-family: sans-serif;
+}
+/* inicio html5 */ 
+.imagen-html{
+    /*Ancho del area*/
+    width: 100%;
+    /* ancho maximo */
+    max-width: 1000px;
+    /* se centra el texto y la imagen*/
+    margin:auto;
+}
+
+/* Modificaciones las imagenes*/
+.imagen-html img{
+    /*Tamaño de la imagen */
+    width: 300px;
+    /*Comando para que el texto se acomede alrededor de la imagen */
+    float: left;
+    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-right: 20px;
+    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-bottom: 10px;
+}
+/*Modifica los parrafos*/
+.imagen-html p{
+    /* Dimencion de la letra*/
+    font-size: 18px;
+    /* Grueso de la letra*/
+    font-weight: 300;
+}
+/*Modifica el titulo*/
+.title{
+    /* Dimencion de la letra*/
+    font-size: 30px;
+    /* Grueso de la letra*/
+    font-weight: 400; 
+}
+/*Fin de html 5*/
+
+/*Inicio de github */
+.github{
+    /*Ancho del area*/
+    width: 100%;
+    /* ancho maximo */
+    max-width: 1000px;
+}
+
+/* Modificaciones de las imagenes*/
+.github img{
+    /*Tamaño de la imagen */
+    width: 300px;
+    /*Comando para que el texto se acomede alrededor de la imagen */
+    float: left;
+    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-right: 20px;
+    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-bottom: 5px;
+}
+
+/*Modifica los parrafos*/
+.github p{
+    /* Dimencion de la letra*/
+    font-size: 18px;
+    /* Grueso de la letra*/
+    font-weight: 300;
+}
+
+/*Modifica a la clase del titulo*/
+.title2{
+    /* Dimencion de la letra*/
+    font-size: 30px;
+    /* Grueso de la letra*/
+    font-weight: 400; 
+}
+/*Fin de github */
+
+/*Inicio css*/
+.css{
+    /*Ancho del area*/
+    width: 100%;
+    /* ancho maximo */
+    max-width: 1000px;
+}
+
+/* Modificaciones de las imagenes*/
+.css img{
+    /*Tamaño de la imagen */
+    width: 300px;
+    /*Comando para que el texto se acomede alrededor de la imagen */
+    float: left;
+    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-right: 20px;
+    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-bottom: 0px;
+}
+
+/*Modifica los parrafos*/
+.css p{
+    /* Dimencion de la letra*/
+    font-size: 18px;
+    /* Grueso de la letra*/
+    font-weight: 300;
+}
+
+/*Modifica la clase del titulo*/
+.title3{
+    /* Dimencion de la letra*/
+    font-size: 30px;
+    /* Grueso de la letra*/
+    font-weight: 400; 
+}
+/*Fin css*/
+
+/*Inicio de login*/
+.login{
+    /*Ancho del area*/
+    width: 100%;
+    /* ancho maximo */
+    max-width: 1000px;
+    /* se centra el texto y la imagen*/
+    margin:auto;
+}
+
+/* Modificaciones las imagenes*/
+.login img{
+    /*Tamaño de la imagen */
+    width: 300px;
+    /*Comando para que el texto se acomede alrededor de la imagen */
+    float: left;
+    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-right: 20px;
+    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-bottom: 10px;
+}
+/*Modifica los parrafos*/
+.login p{
+    /* Dimencion de la letra*/
+    font-size: 18px;
+    /* Grueso de la letra*/
+    font-weight: 300;
+}
+/*Modifica el titulo*/
+.title{
+    /* Dimencion de la letra*/
+    font-size: 30px;
+    /* Grueso de la letra*/
+    font-weight: 400; 
+}
