@@ -7,30 +7,34 @@ html{
 
 /* Modifica los parrafos en general */
 p{
+    /*Dimencion de la letra*/
     font-size: 20px;
+    /*Define la altura de las casillas anivel del elemento del bloque (distancia entre lineas de texto) */
     line-height: 2;
+    /*Cantidad de espacio entre caracteres*/
     letter-spacing: 0px; 
 }
 
 
-/*Nos permite acomodar el texto de nuestra pagina mediante el margen
-podemos modificar el tamaño del margen de la izquierda y derecha 
-mediante pixeles */
+/*Modifica todo el contenido de nuestro documento */
 body{
+    /*Nos permite acomodar el texto de nuestra pagina mediante el margen
+    podemos modificar el tamaño del margen de la izquierda y derecha 
+    mediante pixeles */
     margin-left: 60px;
     margin-right: 60px;
 }
 
-
-/* Nos permite dar color a las palabras que estan subrayadas*/
+/*Elemento de frase */
 strong{
+    /* Nos permite dar color y resaltar lo mas importante del documento */
     color:tomato
 }
 
 
 /*Selector de todos los elementos */
 *{
-    /*Permite hacer el margen en general de los 4 lados de un elemento*/
+    /*Permite modificar el margen en general (de los 4 lados de un elemento)*/
     margin:0;
     /*Crea un relleno para los bordes*/
     padding: 0;
@@ -41,18 +45,17 @@ strong{
 }
 
 
-/* inicio html5 */ 
-.caja-html{
+/*Caja de para modificar nustra clase "proyecto 1" y
+lo que contiene*/
+.proyecto1{
     /*Ancho del area*/
     width: 100%;
     /* Ancho maximo */
     max-width: 1000px;
-    /* Se centra el texto y la imagen*/
-    margin:auto;
 }
 
-/* Modificaciones las imagenes*/
-.caja-html img{
+/* Modificaciones de las imagenes*/
+.proyecto1 img{
     /*Tamaño de la imagen */
     width: 300px;
     /*Comando para que el texto se acomede alrededor de la imagen */
@@ -62,345 +65,19 @@ strong{
     /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
     margin-bottom: 10px;
 }
-/*Modifica los parrafos*/
-.caja-html p{
+
+/*Modificacion de los parrafos*/
+.proyecto1 p{
     /* Dimencion de la letra*/
     font-size: 18px;
     /* Grueso de la letra*/
     font-weight: 300;
 }
-/*Modifica el titulo*/
+
+/*Modificacion del el titulo*/
 .titulo{
     /* Dimencion de la letra*/
     font-size: 30px;
     /* Grueso de la letra*/
     font-weight: 400; 
 }
-/*Fin de html 5*/
-
-
-
-
-
-/*Inicio de github */
-.github{
-    /*Ancho del area*/
-    width: 100%;
-    /* ancho maximo */
-    max-width: 1000px;
-}
-
-/* Modificaciones de las imagenes*/
-.github img{
-    /*Tamaño de la imagen */
-    width: 300px;
-    /*Comando para que el texto se acomede alrededor de la imagen */
-    float: left;
-    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-right: 20px;
-    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-bottom: 5px;
-}
-
-/*Modifica los parrafos*/
-.github p{
-    /* Dimencion de la letra*/
-    font-size: 18px;
-    /* Grueso de la letra*/
-    font-weight: 300;
-}
-
-/*Modifica a la clase del titulo*/
-.titulo2{
-    /* Dimencion de la letra*/
-    font-size: 30px;
-    /* Grueso de la letra*/
-    font-weight: 400; 
-}
-/*Fin de github */
-
-
-
-
-
-
-/*Inicio css*/
-.css{
-    /*Ancho del area*/
-    width: 100%;
-    /* Ancho maximo */
-    max-width: 1000px;
-}
-
-/* Modificaciones de las imagenes*/
-.css img{
-    /*Tamaño de la imagen */
-    width: 300px;
-    /*Comando para que el texto se acomede alrededor de la imagen */
-    float: left;
-    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-right: 20px;
-    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-bottom: 0px;
-}
-
-/*Modifica los parrafos*/
-.css p{
-    /* Dimencion de la letra*/
-    font-size: 18px;
-    /* Grueso de la letra*/
-    font-weight: 300;
-}
-
-/*Modifica la clase del titulo*/
-.titulo3{
-    /* Dimencion de la letra*/
-    font-size: 30px;
-    /* Grueso de la letra*/
-    font-weight: 400; 
-}
-/*Fin css*/
-
-
-
-
-
-
-
-/*Inicio de login*/
-.login{
-    /*Ancho del area*/
-    width: 100%;
-    /* Ancho maximo */
-    max-width: 1000px;
-    /* Se centra el texto y la imagen*/
-    margin:auto;
-}
-
-/* Modificaciones las imagenes*/
-.login img{
-    /*Tamaño de la imagen */
-    width: 300px;
-    /*Comando para que el texto se acomede alrededor de la imagen */
-    float: left;
-    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-right: 20px;
-    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-bottom: 10px;
-}
-/*Modifica los parrafos*/
-.login p{
-    /* Dimencion de la letra*/
-    font-size: 18px;
-    /* Grueso de la letra*/
-    font-weight: 300;
-}
-/*Modifica el titulo*/
-.titulo4{
-    /* Dimencion de la letra*/
-    font-size: 30px;
-    /* Grueso de la letra*/
-    font-weight: 400; 
-}
-/*Fin de login*/
-
-
-
-
-
-/*Inicio de contraseña */
-.contraseña{
-    /*Ancho del area*/
-    width: 100%;
-    /* Ancho maximo */
-    max-width: 1000px;
-}
-
-/* Modificaciones de las imagenes*/
-.contraseña img{
-    /*Tamaño de la imagen */
-    width: 300px;
-    /*Comando para que el texto se acomede alrededor de la imagen */
-    float: left;
-    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-right: 20px;
-    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-bottom: 5px;
-}
-
-/*Modifica los parrafos*/
-.contraseña p{
-    /* Dimencion de la letra*/
-    font-size: 18px;
-    /* Grueso de la letra*/
-    font-weight: 300;
-}
-
-/*Modifica a la clase del titulo*/
-.titulo5{
-    /* Dimencion de la letra*/
-    font-size: 30px;
-    /* Grueso de la letra*/
-    font-weight: 400; 
-}
-/*Fin de contraseña */
-
-
-
-
-
-
-
-/* Inicio proyecto */ 
-.proyecto{
-    /*Ancho del area*/
-    width: 100%;
-    /* Ancho maximo */
-    max-width: 1000px;
-    /* Se centra el texto y la imagen*/
-    margin:auto;
-}
-
-/* Modificaciones las imagenes*/
-.proyecto img{
-    /*Tamaño de la imagen */
-    width: 300px;
-    /*Comando para que el texto se acomede alrededor de la imagen */
-    float: left;
-    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-right: 20px;
-    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-bottom: 10px;
-}
-/*Modifica los parrafos*/
-.proyecto p{
-    /* Dimencion de la letra*/
-    font-size: 18px;
-    /* Grueso de la letra*/
-    font-weight: 300;
-}
-/*Modifica el titulo*/
-.titulo6{
-    /* Dimencion de la letra*/
-    font-size: 30px;
-    /* Grueso de la letra*/
-    font-weight: 400; 
-}
-/*Fin de proyecto*/
-
-
-
-
-
-
-/*Inicio de examen*/
-.examen{
-    /*Ancho del area*/
-    width: 100%;
-    /*Ancho maximo */
-    max-width: 1000px;
-    /*Se centra el texto y la imagen*/
-    margin:auto;
-}
-
-/* Modificaciones las imagenes*/
-.examen img{
-    /*Tamaño de la imagen */
-    width: 300px;
-    /*Comando para que el texto se acomede alrededor de la imagen */
-    float: left;
-    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-right: 20px;
-    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-bottom: 10px;
-}
-/*Modifica los parrafos*/
-.examen p{
-    /* Dimencion de la letra*/
-    font-size: 18px;
-    /* Grueso de la letra*/
-    font-weight: 300;
-}
-
-/*Modifica el titulo*/
-.titulo7{
-    /* Dimencion de la letra*/
-    font-size: 30px;
-    /* Grueso de la letra*/
-    font-weight: 400; 
-}
-/*Fin de examen */
-
-/* inicio "tiempo */ 
-.tiempo{
-    /*Ancho del area*/
-    width: 100%;
-    /* Ancho maximo */
-    max-width: 1000px;
-    /* Se centra el texto y la imagen*/
-    margin:auto;
-}
-
-/* Modificaciones las imagenes*/
-.tiempo img{
-    /*Tamaño de la imagen */
-    width: 300px;
-    /*Comando para que el texto se acomede alrededor de la imagen */
-    float: left;
-    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-right: 20px;
-    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-bottom: 10px;
-}
-/*Modifica los parrafos*/
-.tiempo p{
-    /* Dimencion de la letra*/
-    font-size: 18px;
-    /* Grueso de la letra*/
-    font-weight: 300;
-}
-/*Modifica el titulo*/
-.titulo4{
-    /* Dimencion de la letra*/
-    font-size: 30px;
-    /* Grueso de la letra*/
-    font-weight: 400; 
-}
-/*Fin de "tiempo*/
-
-/* inicio "space-jam" */ 
-.space-jam{
-    /*Ancho del area*/
-    width: 100%;
-    /* Ancho maximo */
-    max-width: 1000px;
-    /* Se centra el texto y la imagen*/
-    margin:auto;
-}
-
-/* Modificaciones las imagenes*/
-.space-jam img{
-    /*Tamaño de la imagen */
-    width: 300px;
-    /*Comando para que el texto se acomede alrededor de la imagen */
-    float: left;
-    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-right: 20px;
-    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
-    margin-bottom: 10px;
-}
-/*Modifica los parrafos*/
-.space-jam p{
-    /* Dimencion de la letra*/
-    font-size: 18px;
-    /* Grueso de la letra*/
-    font-weight: 300;
-}
-/*Modifica el titulo*/
-.titulo5{
-    /* Dimencion de la letra*/
-    font-size: 30px;
-    /* Grueso de la letra*/
-    font-weight: 400; 
-}
-/*Fin de "space-jam"*/

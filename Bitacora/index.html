@@ -1,5 +1,5 @@
 <!--Nota-->
-<!-- Toda etiqueta tiene un inicio y un final  por ejemplo "<h1> </h1>
+<!-- Toda etiqueta tiene un inicio y un final  por ejemplo "<h1> </h1>"
 se les pone un / enseguida del nombre de la etiqueta para indicar que se cierra 
 esa etiqueta, todo lo que este dentro de una etiqueta se modifica dependiendo de cual etiqueta se use,
 pero en algunas etiquetas no aplica "-->
@@ -11,6 +11,7 @@ pero en algunas etiquetas no aplica "-->
 <!-- head contiene toda la informacion sobre nuestro documento -->
 <head> 
 
+<!-- Link es para el tipo de letra que se usara en el documento lo saca de google-->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css">
 
 <!--Este link conecta con nuestro archivo CSS por medio de una busqueda 
@@ -29,48 +30,45 @@ esto sirve para implementar un icono a la pagina-->
 </head>
 
 
-<!--body representra todo el contenido de nuestra pagina
+<!--"body" representra todo el contenido de nuestra pagina
 (solo puede existir uno)-->
 <body>
 
-<!--hr sirve para separar los temas de  nustro sitio web 
+<!--"h1" sirve para crear nuestros titulos-->
+<!--"align" nos sirve para poder posicionar nuestro subtitulo
+a la derecha, izquierda o en el centro, en este caso esta en el centro-->
+<h1 align="center">Bitacora de clase</h1>
+
+<!--"hr" sirve para separar los temas de  nustro sitio web 
 con una linea horizontal negra-->
 <hr>
 
-<!--h1 sirve para crear nuestros titulos-->
-<!--align nos sirve para poder posicionar nuestro subtitulo
-a la derecha, isquierda o en el centro, en este caso esta en el centro-->
-<h1 align="center">Bitacora de clase</h1>
-
-<!--Cerramos nustra etiquta para la separacion del tema-->
-<hr/>
-
-<!--br nos sirve para hacer un salto de linea en nustro texto-->
-<!--Algunas etiquetas no tiene un cierre ya que insertan "un elemento 
-en un lugar específico" estas etiquetas se les llama "etiquetas huerfanas",
-como en este caso br--> 
+<!--"br" nos sirve para hacer un salto de linea en nustro texto-->
+<!--Algunas etiquetas no tiene un cierre ya que solo insertan un elemento 
+en un lugar específico, estas etiquetas se les llama "etiquetas huerfanas",
+como en este caso "br" y tambien "hr"--> 
 <br>
 
 <!--dive es un "contenedor de bloque" ocupa todo el ancho de la pagina aqui contiene
 las imagenes, titulos y parrafos -->
-<!--Le asigno la clase "contenedor html "-->
-<!--class sirve como un separador ya que a la hora de usar CSS o JavaScript
-podemos modificar un elemento en espesifico con solo agregar una clase
+<!--Le asigno la clase "proyecto1 "-->
+<!--"class" sirve como un separador ya que a la hora de usar CSS o JavaScript
+podemos modificar un elemento en espesifico con solo agregar el nombre de la clase
 (todo lo que este dentro de la clase se modifica en CSS o JavaScript en un documento aparte)-->
-<dive class="caja-html">
-    <!--img nos permite implementar una imagen en nustra pagina,
-    src es una ruta para encontrar mi imagen que quiero poner, la ruta 
+<dive class="proyecto1">
+    <!--"img" nos permite implementar una imagen en nustra pagina,
+    "src" es una ruta para encontrar mi imagen que quiero poner, la ruta 
     que deve seguir es: el nombre de la carpeta (donde esta mi imagen) y nombre de la imagen 
-    a compáñado del formato en que este en este caso es .jpg -->
+    a compáñado del formato en que este este, en este caso es .jpg -->
     <img src="imagenes/html5.jpg">
-    <!--Asignamos el titulo de nuestro tema y le asigno una clase, creamos nuestra 
-    fecha con h3 pra que sea mas pequeño que un h1  nuestra fecha y la aliniamos
-    a la izquierda  -->
+    <!--Asignamos el subtitulo de nuestro 1tema con "h1" y le asigno una clase, creamos nuestra 
+    fecha con "h3" pra que sea mas pequeño que el subtitulo y la aliniamos
+    a la izquierda con "align"  -->
     <h1 class="titulo"> Html5 </h1> <h3 align="left">1/2/2023</h3>
-    <!--P, esta etiqueta nos sirve para agregar parrafos a nuestra pagina web-->
-    <!--strong es otra etiqueta que nos sirve para resaltar cosas importantes del texto 
-    lo que este dentro de strong sen torna de colo negro por default pero se
-    puede cambiar el color-->
+    <!--"P", esta etiqueta nos sirve para agregar parrafos a nuestra pagina web-->
+    <!--"strong" es una etiqueta que nos sirve para resaltar cosas importantes del texto 
+    lo que este dentro de strong sen torna de color negro por default pero se
+    puede cambiar el color en CSS-->
 
     <!--Creamos nuestro primer parrafo-->
     <p >
@@ -78,7 +76,7 @@ podemos modificar un elemento en espesifico con solo agregar una clase
     estandar son <strong> reglas </strong>, por ejemplo: cuidar la estructura 
     sea una aplicacion o pagina web, que se pueda abrir desde cualquier dispositivo
     y si contiene imagenes estas se acomoden de manera correcta
-    al dispositivo eso es un  Estandar <strong> que sea 
+    al dispositivo, eso es un  Estandar <strong> que sea 
     amigable con los usuarios, eso es HTML.</strong>
      <!--Cerramos nuestro primer parrafo -->
     </p>
@@ -99,21 +97,23 @@ podemos modificar un elemento en espesifico con solo agregar una clase
 <!--Cierro mi div -->
 </dive>
 
- <!--Salto de tema -->
+
+ <!--Linea de separacion -->
 <hr>
- <!--Cerramos el salto de tema  -->
-</hr>
+
  <!--Salto de parrafo-->
 <br>
 
-<!--Creamos un segundo div-->
-<!--Le asigno la clase "github "-->
-<div class="github">
+<!--Creamos un segundo "div"-->
+<!--Apartir de a qui todos mis clases de div se llamaran proyecto 1 
+ya que todos tendran las mismas modificaciones en mi CSS-->
+<div class="proyecto1">
     <!--Utilizo otro img para otra imagen,
      y le indico la ruta a src -->
     <img src="imagenes/github1.jpg">
-    <!--Asignamos el titulo de nuestro tema y le asigno una clase tambien creamos nuestra fecha 
-    con h3 para que sea menor a un h1 y lo alineamos a la izquierda  -->
+    <!--Asignamos el subtitulo de nuestro 2tema con "h1" y le asigno una clase, creamos nuestra 
+    fecha con "h3" pra que sea mas pequeño que el subtitulo y la aliniamos
+    a la izquierda con "align"  -->
     <h1 class="titulo"> GITHUB </h1> <h3 align="left">2/2/2023</h3> 
     <!--Creo mi parrafo-->
     <p> 
@@ -139,53 +139,56 @@ podemos modificar un elemento en espesifico con solo agregar una clase
     </p>
     
 
-<!--Cierro mi segundo div -->
+<!--Cierro mi div -->
 </div>
-
+<!--Linea de separacion-->
 <hr>
+<!--Salto de parrafos-->
 <br>
 <br>
 
-<!--Creamos un tercer div-->
-<!--Le asigno la clase "css "-->
-<div class="Css">
+<!--Creamos un tercer div
+con su clase-->
+<div class="proyecto1">
     <!--Utilizo otro img para otra imagen,
      y le indico la ruta a src-->
     <img src="imagenes/css2.jpg">
-    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
-    la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
-    a la izquiuerda -->
+    <!--Asignamos el subtitulo de nuestro 3tema con "h1" y le asigno una clase, creamos nuestra 
+    fecha con "h3" pra que sea mas pequeño que el subtitulo y la aliniamos
+    a la izquierda con "align"  -->
     <h1 class="titulo">CSS parte 1</h1> <h3 align="left">7/2/2023</h3>
     <!--Creo mi parrafo-->
     <p>
     El profesor nos dijo que modificaramos nuestra bitacora sin usar Css solo usaramos
     html, y CSS vendria siendo el que le da diseño a nuestra pagina web
-
+    <!--Cierro mi parrafo-->
     </p>
 
+<!--Cierro mi div-->
 </div>
 
+<!--Saltos de parros-->
 <br>
 <br>
 <br>
 <br>
-<!--creo mi linea de separacion-->
-<hr>
-<!--Cierro mi linea de separacion--> 
-</hr>
 
-<!--Hago mi salto de parrafo-->
+<!--Linea de separacion-->
+<hr>
+
+<!--Hago mis saltos de parrafo-->
 <br>
 <br>
-<!--Creamos un tercer div-->
-<!--Le asigno la clase "css "-->
-<div class="css">
+
+<!--Creamos un cuarto div-->
+<!--con su clase-->
+<div class="proyecto1">
     <!--Utilizo otro img para otra imagen,
      y le indico la ruta a src-->
     <img src="imagenes/css1.jpg">
-    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
-    la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
-    a la izquiuerda -->
+    <!--Asignamos el subtitulo de nuestro 4tema con "h1" y le asigno una clase, creamos nuestra 
+    fecha con "h3" pra que sea mas pequeño que el subtitulo y la aliniamos
+    a la izquierda con "align"  -->
     <h1 class="titulo">CSS parte 2</h1> <h3 align="left">8/2/2023</h3>
     <!--Creo mi parrafo-->
     <p>
@@ -206,57 +209,64 @@ podemos modificar un elemento en espesifico con solo agregar una clase
     <!--Cierro mi segundo parrafo-->
     </p>
 
-<!--Cierro mi tercer div-->
+<!--Cierro mi div-->
 </div>
 
-<!--Creo mi linea de separacion-->
+<!--linea de separacion-->
 <hr> 
-<!--Cierro mi linea de separacion-->
-</hr>
+<!--Saltos de parrafo-->
+<br>
+<br>
 
-<br>
-<br>
-<!--Creamos un tercer div-->
-<!--Le asigno la clase "css "-->
-<div class="css">
+<!--Creamos un quinto div-->
+<!--Le asigno una clase-->
+<div class="proyecto1">
     <!--Utilizo otro img para otra imagen,
      y le indico la ruta a src-->
     <img src="imagenes/css3.jpg">
-    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    <!--Asignamos el titulo de nuestro 5tema, una clase y tambien creamos 
     la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
     a la izquiuerda -->
     <h1 class="titulo">CSS parte 3</h1> <h3 align="left">13/2/2023</h3>
     <!--Creo mi parrafo-->
     <p>El profesor nos pidio acabar los detallas de nuestra pagina con CSS
         ya e aprendido a asignar clases y modificarlas en css.
+    <!--Cierro mi parrafo-->
     </p>
+
+<!--Cierro mi div-->
 </div>
 
+<!--Linea de separacion-->
 <hr>
-<!--Hago mi salto de parrafo-->
+<!--Saltos de parrafo-->
 <br>
 <br>
 
-<!--Creamos un cuarto div (cuando creamos varios div estos se apilaran uno en sima de otro)-->
-<!--Le asigno la clase "login "-->
-<dive class="tiempo">
+<!--Creamos un sectimo div (cuando creamos varios div estos se apilaran uno en sima de otro)-->
+<!--Le asigno una clase-->
+<dive class="proyecto1">
     <!--Utilizo otro img para otra imagen,
      y le indico la ruta a src  donde encontrar la imagen -->
     <img src="imagenes/tiempo.jpg">
-    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
-    la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
-    a la izquiuerda -->
+    <!--Asignamos el subtitulo de nuestro 6tema con "h1" y le asigno una clase, creamos nuestra 
+    fecha con "h3" pra que sea mas pequeño que el subtitulo y la aliniamos
+    a la izquierda con "align"  -->
     <h1 class="titulo"> Repositorio y presentaciones </h1> <h3 align="left">15/2/2023</h3>
     <!--Creo mi parrafo-->
     <p > El dia de hoy creamos nuestro repositorio en github ya que el profesor nos pidio
         creearlo para subir los cambios de nustra bitacora, tambien paso a varios compañeros 
-        a presentar sus paginas uvo regaños y risas ya que el profe le gusto un diseño 
+        a presentar sus paginas hubo regaños y risas ya que el profe le gusto un diseño 
         de una compañera en la que su pagina tenia burbujas y tambien le dio 
         nostalgia ya que una segunda compañera tenia una pagina del 2004. 
+    <!--Cierro mi parrafo-->
     </p>
 
-</dive>
+<!--Cierro mi div-->
+</div>
 
+<!--Saltos de parrafos (hay muchos para que la imagen y el texto se acomeden de bajo
+    del anterior tema y no se junten )-->
 <br>
 <br>
 <br>
@@ -264,41 +274,52 @@ podemos modificar un elemento en espesifico con solo agregar una clase
 <br>
 <br>
 <br>
+<!--Linea de separacion-->
 <hr>
 <br>
 
-<!--Creamos un cuarto div (cuando creamos varios div estos se apilaran uno en sima de otro)-->
-<!--Le asigno la clase "login "-->
-<dive class="space-jam">
+<!--Creamos un septimo div-->
+<!--Le asigno una clase-->
+<dive class="proyecto1">
     <!--Utilizo otro img para otra imagen,
      y le indico la ruta a src  donde encontrar la imagen -->
     <img src="imagenes/space-jam.jpg">
-    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    <!--Asignamos el subtitulo de nuestro 7tema, una clase y tambien creamos 
     la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
     a la izquiuerda -->
-    <h1 class="titulo"> Login </h1> <h3 align="left">16/2/2023</h3>
+    <h1 class="titulo"> Evolucion del desarrolo web </h1> <h3 align="left">16/2/2023</h3>
     <!--Creo mi parrafo-->
     <p> El dia de hoy el profesor nos dijo que la pagina de space jam de la pelicula original del 96
         sigue funcionando y nos dijo que le dieramos una revisada y se sintio como un viaje en el tiempo 
         hay mucha diferencia comparando esa pagina a las de hoy en dias, tambien durante la clase nos 
-        puso a investigar que tanto a ido evolucionando el desarrolo web.
+        puso a investigar que tanto ha ido evolucionando el desarrolo web y aprendi que <strong>
+        HTML se creo en 1990 y que la primera pagina web fue creada en 1991 y se llamna WORLD WIDE WEB
+        </strong>  y hasta 1995 hasta 1996 fue donde estuvo presente CSS,PHP,JavaScript, y Flash
+        <strong> CSS y PHP proporcionaron mayor simplicidad y dinamismo y Flash y JavaScript aportaron la 
+        interaccion, animacion y efectos especiales,</strong> hasta 2008 fue que se empezo hacer 
+        diseño web para los moviles y de hay a 2010 fue cuando <strong>HTML5</strong> salio a la 
+        luz,  y de hay hasta la actualidad no avido cambios tan grandes en el desarrollo web,
+        eso fue lo que aprendi esta clase.
+    <!--Cierro mi parrafo-->
     </p>
+
+<!--Cierro mi div-->
 </dive>
 
-
+<!--Saltos de parrafos-->
 <br>
 <br>
 <hr>
 <br>
 <br>
 
-<!--Creamos un cuarto div (cuando creamos varios div estos se apilaran uno en sima de otro)-->
-<!--Le asigno la clase "login "-->
-<dive class="login">
+<!--Creamos un octavo tema-->
+<!--Le asigno una clase-->
+<dive class="proyecto1">
     <!--Utilizo otro img para otra imagen,
      y le indico la ruta a src  donde encontrar la imagen -->
     <img src="imagenes/login.jpg">
-    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    <!--Asignamos el subtitulo de nuestro 8tema, una clase y tambien creamos 
     la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
     a la izquiuerda -->
     <h1 class="titulo"> Login </h1> <h3 align="left">20/2/2023</h3>
@@ -316,42 +337,40 @@ podemos modificar un elemento en espesifico con solo agregar una clase
     <!--Cierro mi parrafo-->
     </p>
 
-<!--Cierro mi cuarto div -->
+<!--Cierro mi div -->
 </dive>  
 
-<!--Hago muchos seltos de parrafo para que no este muy junto mi texto del 
-anterior-->
+<!--Saltos de parrafo-->
 <br>
 <br>
 <br>
 
 <!--Creo mi linea de separacion-->
 <hr> 
-<!--Cierro mi linea de separacion-->
-</hr>
 
-<!--Saltos de linea-->
+<!--Saltos de parrafo-->
 <br>
 <br>
 <br>
-<!--Creamos un quinto div-->
-<!--Le asigno la clase "contraseña "-->
-<dive class="contraseña">
+
+<!--Creamos un noveno div-->
+<!--Le asigno una clase-->
+<dive class="proyecto1">
     <!--Utilizo otro img para otra imagen,
      y le indico la ruta a src donde encontrar la imagen -->
     <img src="imagenes/contraseña.jpg">
-    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    <!--Asignamos el subtitulo de nuestro 9tema, una clase y tambien creamos 
     la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
     a la izquiuerda -->
     <h1 class="titulo"> Contraseña </h1> <h3 align="left">22/2/2023</h3>
     <!--Creamos nuestro parrafo-->
     <p >
-    El dia de hoy hisimos un pequeño formulario para que el usurio pueda 
-    recuperar su contraseña en caso de que se le olvide de la contraseña.
+    El dia de hoy hisimos un pequeño formulario para que el usuario pueda 
+    recuperar su contraseña en caso de que se le olvide.
     <!--Cerramos nuestro parrafo-->
     </p>
 
-<!--Cierro my quinto div-->
+<!--Cierro my div-->
 </dive>
 
 <!--Hago muchos saltos de parrafo para que no este muy junto mi texto del 
@@ -370,51 +389,58 @@ anterior-->
 <br>
 <br>
 
-<!--Creamos un sexto div-->
-<div class="proyecto">
+<!--Creamos un decimo div-->
+<!--Y le asigno una clase-->
+<div class="proyecto1">
     <!--Utilizo varios img para poner varias imagenes,
      y le indico la ruta a src  donde encontrar la imagen -->
     <img src="imagenes/login.jpg">
     <img src="imagenes/registro.jpg">
-    <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
+    <!--Asignamos el subtitulo de nuestro 10tema, una clase y tambien creamos 
     la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
     a la izquiuerda -->
-    <h1 class="titulo6"> Proyecto web </h1> <h3 align="left">23/2/2023</h3>
+    <h1 class="titulo"> Proyecto web </h1> <h3 align="left">23/2/2023</h3>
+    <!--Creamos nuestro primer parrafo-->
     <p>
     El dia de hoy el profesor nos pido que ya estuvira listo nuestro <strong>registro de usuario, login y el
-    formulario para la recuperacion de contraseña,</strong> yo lo hise por medio de un codigo de verificacion
-    el profe nos pidio estos avances para el dia de hoy.
+    formulario para la recuperacion de contraseña,</strong> el profe nos pidio estos avances para el dia de hoy.
+    <!--Cerramos nuestro primer parrafo-->
     </p>
 
-    <p> Tambien el profesor nos comento como implementariamos el sistema del tio para que no se saturara 
-        la pagina y nos propuso poner ideas de mejora con sus pros y contras de cada idea 
+    <!--Creamos nuestro segundo parrafo-->
+    <p> Tambien el profesor nos comento como implementariamos el "sistema del tio" para que no se saturara 
+        la pagina y nos propuso poner ideas de mejora con sus pros y contras.
+    <!--Cerramos nuestro segundo parrafo--> 
     </p>
 
-<!--Cierro my sexto div--> 
+<!--Cierro my div--> 
 </div>
+<!--Saltos de parrafo-->
 <br>
 <br>
 <br>
 <br>
 <br>
+<!--Linea de separacion-->
 <hr>
 
+<!--Saltos de parrafo-->
 <br>
 <br>
 <br> 
 
 
-<!--Creamos un septimo div-->
-<div class="examen">
+<!--Creamos un undesimo div-->
+<!--Le asigno una clase-->
+<div class="proyecto1">
     <!--Utilizo varios img para poner varias imagenes,
      y le indico la ruta a src  donde encontrar la imagen -->
-    <img src="imagenes/help.jpg">
-    <img src="imagenes/nekoarc.jpg">
+    <img src="imagenes/examen.jpg">
     <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
     la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
     a la izquiuerda -->
-    <h1 class="titulo7"> Proyecto web </h1> <h3 align="left">27/2/2023</h3>
-    <!--Creamos nustro parrafo-->
+    <h1 class="titulo"> Examen </h1> <h3 align="left">27/2/2023</h3>
+    <!--Creamos nustro primer parrafo-->
     <p>
         El dia de hoy el profesor nos ayudo a dar un repaso de los temas que vendran en el examen 
         por ejemplo: el profesor nos explico que es HTML5, HTML5 es un <strong> lenguaje estructurado
@@ -424,44 +450,47 @@ anterior-->
         los titulos o "p" que solo afecta a los parrafos son varias cajas y cada uno tiene sus atributos 
         que estos son los que modifican a cada una de las etiquetas anteriores esto se hace por medio de CSS 
         </strong>
-    <!--Cerramos nuestro parrafo-->
+    <!--Cerramos nuestro primer parrafo-->
     </p>
-
+    <!--Creamos nuestro segundo parrafo-->
     <p> Aparte de eso tambien el profesor nos comento que comensaramos hacer un nuevo index 
         que hisieramos un menu con minimo 20 articulos de la cafeteria de la escula 
         ya estamos empezando a creear la pagina para la cafeteria del cetis 155
+    <!--Cerramos nuestro segundo parrafo-->
     </p>
 
-<!--Cerramos nuestro septimo div-->
+<!--Cerramos el div-->
 </div>
 
+<!--Linea de separacion-->
 <hr>
+<!--Saltos de linea-->
 <br>
 <br>
 <br>
 
 
-<!--Creamos un septimo div-->
-<div class="examen">
+<!--Creamos un duodecimo div-->
+<div class="proyecto1">
     <!--Utilizo varios img para poner varias imagenes,
      y le indico la ruta a src  donde encontrar la imagen -->
     <img src="imagenes/bitacora.jpg">
     <!--Asignamos el titulo de nuestro tema, una clase y tambien creamos 
     la fecha con h3 ya que de esta forma sera mas pequeña que nuestro h1 y lo alineamos 
     a la izquiuerda -->
-    <h1 class="titulo7"> Fin del primer parcial </h1> <h3 align="left">27/2/2023</h3>
-    <!--Creamos nustro parrafo-->
+    <h1 class="titulo"> Fin del primer parcial </h1> <h3 align="left">27/2/2023</h3>
+    <!--Creamos nustro  parrafo-->
     <p>
         El dia de hoy el profesor nos dijo que esta bitacora se entrega para el dia 2/2/2023
         a mas tardar a las 2 pm y tambien nos dejo avanzar con el proyecto del menu todas las horas de
         su clase esta es la ultima actualizacion de la bitacora del primer parcial.
-       
     <!--Cerramos nuestro parrafo-->
     </p>
 
-<!--Cerramos nuestro septimo div-->
+<!--Cerramos nuestro div-->
 </div>
 <!--Creramos nuestro body-->
 </body>
 <!--Cerramos nuestro html-->
 </html>
+<!--Fin del documento -->
