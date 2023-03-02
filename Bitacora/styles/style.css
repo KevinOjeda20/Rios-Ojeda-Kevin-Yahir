@@ -70,7 +70,7 @@ strong{
     font-weight: 300;
 }
 /*Modifica el titulo*/
-.titulo1{
+.titulo{
     /* Dimencion de la letra*/
     font-size: 30px;
     /* Grueso de la letra*/
@@ -330,3 +330,77 @@ strong{
     font-weight: 400; 
 }
 /*Fin de examen */
+
+/* inicio "tiempo */ 
+.tiempo{
+    /*Ancho del area*/
+    width: 100%;
+    /* Ancho maximo */
+    max-width: 1000px;
+    /* Se centra el texto y la imagen*/
+    margin:auto;
+}
+
+/* Modificaciones las imagenes*/
+.tiempo img{
+    /*Tamaño de la imagen */
+    width: 300px;
+    /*Comando para que el texto se acomede alrededor de la imagen */
+    float: left;
+    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-right: 20px;
+    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-bottom: 10px;
+}
+/*Modifica los parrafos*/
+.tiempo p{
+    /* Dimencion de la letra*/
+    font-size: 18px;
+    /* Grueso de la letra*/
+    font-weight: 300;
+}
+/*Modifica el titulo*/
+.titulo4{
+    /* Dimencion de la letra*/
+    font-size: 30px;
+    /* Grueso de la letra*/
+    font-weight: 400; 
+}
+/*Fin de "tiempo*/
+
+/* inicio "space-jam" */ 
+.space-jam{
+    /*Ancho del area*/
+    width: 100%;
+    /* Ancho maximo */
+    max-width: 1000px;
+    /* Se centra el texto y la imagen*/
+    margin:auto;
+}
+
+/* Modificaciones las imagenes*/
+.space-jam img{
+    /*Tamaño de la imagen */
+    width: 300px;
+    /*Comando para que el texto se acomede alrededor de la imagen */
+    float: left;
+    /*Margen a la derecha de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-right: 20px;
+    /* Margen de abajo de la imagen (separa las letras para no estar tan juntas de la imagen)  */
+    margin-bottom: 10px;
+}
+/*Modifica los parrafos*/
+.space-jam p{
+    /* Dimencion de la letra*/
+    font-size: 18px;
+    /* Grueso de la letra*/
+    font-weight: 300;
+}
+/*Modifica el titulo*/
+.titulo5{
+    /* Dimencion de la letra*/
+    font-size: 30px;
+    /* Grueso de la letra*/
+    font-weight: 400; 
+}
+/*Fin de "space-jam"*/
