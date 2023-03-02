@@ -1,0 +1,286 @@
+/*Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+/*Inicio login*/
+}
+.form-register{
+    /*Ancho del area del contenido del login*/
+    width: 400px;
+    /* Define los valores individuales del fondo*/
+    background: #24303c;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde.  */ 
+    padding: 30px;
+    /*Centra automaticamente el login*/
+    margin:auto;
+    /*Margen superior*/
+    margin-top: 100px;
+    /*Redondeo de esquina*/
+    border-radius: 4px;
+    /*Fuente de letra*/
+    font-family: "calibri";
+    /*Color a la hora de llenar los campos*/
+    color:white;
+    /*Sombra del cuadrado donde tenempos el login*/
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    /*Dimencion de la letra*/
+    font-size: 22px;
+    /*Espacio de la parte inferior de login*/
+    margin-bottom: 20px;
+
+}
+
+.controls{
+    /*Ancho del area del contenido de la clase controls*/
+    width: 100%;
+    /* Define los valores individuales del fondo*/
+    background: #24303c;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde.  */
+    padding: 10px;
+     /*Redondeo de esquina*/
+    border-radius: 4px;
+    /*Espacio de la parte inferior de login*/
+    margin-bottom: 16px;
+    /*Define a todos los borders*/
+    border: 1px solid #1f53c5;
+    /*Fuente de la letra*/
+    font-family: 'calibri';
+    /*Dimencion de la letra*/
+    font-size: 18px;
+    /*Color del texto*/
+    color:white;
+}
+.form-register p{
+    /*Altura de un elemento*/
+    height: 40px;
+    /*Ubicacion del texto*/
+    text-align: center;
+    /*Dimencion de la letra */
+    font-size: 15px;
+    /*Altura de la casilla*/
+    line-height: 40px;
+
+}
+
+.form-register a:hover{
+    /*Color del texto*/
+    color: white;
+    /*Texto subrallado*/
+    text-decoration: underline;
+}
+
+.form-register .botons{
+    /*Ancho del area del contenido del boton*/
+    width:100%;
+    /* Define los valores individuales del fondo*/
+    background: #1f53c5;
+    /*No da borde*/
+    border: none;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde.  */
+    padding: 12px;
+    /*Color del texto*/
+    color: white;
+    /* Establece el margen del elemento*/ 
+    margin: 16px 0;
+    /*Dimenciones de la letra*/
+    font-size: 16px;
+}
+/*Fin login*/ 
+
+ /*Formulario */
+.formulario{
+    /*Ancho del area del contenido*/
+    width: 400px;
+    /* Define los valores individuales del fondo*/
+    background: #24303c;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde.  */ 
+    padding: 30px;
+    /*Centra automaticamente*/
+    margin:auto;
+    /*Margen supeior */
+    margin-top: 100px;
+    /*Redondeo de la esquina superior izquierda puede ser circulo o una elipse*/
+    border-radius: 4px;
+    /*Fuente de letra*/
+    font-family: "calibri";
+    /*Color del texto*/
+    color:white;
+    /*Sombra del cuadrado */
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formulario h4{
+    /*Dimenciones de la letra*/
+    font-size: 22px;
+     /*Espacio de la parte inferior*/
+    margin-bottom: 20px;
+
+}
+
+.etiqueta{
+    /*Ancho del area del contenido*/
+    width: 100%;
+    /* Define los valores individuales del fondo*/
+    background: #24303c;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde.  */ 
+    padding: 10px;
+    /*Redondeo de la esquina superior izquierda puede ser circulo o una elipse*/
+    border-radius: 4px;
+    /*Espacio de la parte inferior*/
+    margin-bottom: 16px;
+    /*Define a todos los borders*/
+    border: 1px solid #1f53c5;
+    /*Fuente de la letra*/
+    font-family: 'calibri';
+    /*Dimenciones de la letra*/
+    font-size: 18px;
+    /*Color del texto*/
+    color:white;
+}
+
+.formulario p{
+    /*Altura de un elemento*/
+    height: 40px;
+     /*Ubicacion del texto*/
+    text-align: center;
+    /*Dimenciones de la letra*/
+    font-size: 15px;
+     /*Dimenciones de la letra*/
+    line-height: 40px;
+
+}
+
+.formulario a:hover{
+    /*Color del texto*/
+    color: white;
+    /*Texto subrallado*/
+    text-decoration: underline;
+}
+
+.formulario .botons{
+    /*Ancho del area del contenido*/
+    width:100%;
+     /* Define los valores individuales del fondo*/
+    background: #1f53c5;
+     /*No da borde*/
+    border: none;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde. */ 
+    padding: 12px;
+    /*Color del texto*/
+    color: white;
+    /* Establece el margen del elemento*/
+    margin: 16px 0;
+    /*Dimenciones de la letra*/
+    font-size: 16px;
+}
+/*Fin formulario*/
+
+/*Inicio de recuperacion de contraseña*/
+.recuperar{
+    /*Ancho del area del contenido del login*/
+    width: 400px;
+    /* Define los valores individuales del fondo*/
+    background: #24303c;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde.  */ 
+    padding: 30px;
+    /*Centra automaticamente*/
+    margin:auto;
+    /*Margen supeior */
+    margin-top: 100px;
+    /*Redondeo de la esquina superior izquierda puede ser circulo o una elipse*/
+    border-radius: 4px;
+    /*Fuente de la letra*/
+    font-family: "calibri";
+    /*Color del texto*/
+    color:white;
+     /*Sombra del cuadrado */
+    box-shadow: 7px 13px 37px #000;
+}
+
+.recuperar h4{
+    /*Dimenciones de la letra*/
+    font-size: 22px;
+    /*Espacio de la parte inferior*/
+    margin-bottom: 20px;
+
+}
+
+.recupera{
+    /*Ancho del area del contenido del login*/
+    width: 100%;
+    /* Define los valores individuales del fondo*/
+    background: #24303c;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde.  */ 
+    padding: 10px;
+    border-radius: 4px;
+    /*Espacio de la parte inferior*/
+    margin-bottom: 16px;
+    /*Redondeo de la esquina superior izquierda puede ser circulo o una elipse*/
+    border: 1px solid #1f53c5;
+    /*Fuente de la letra*/
+    font-family: 'calibri';
+     /*Dimenciones de la letra*/
+    font-size: 18px;
+    /*Color del texto*/
+    color:white;
+}
+
+.recuperar p{
+    /*Altura de un elemento*/
+    height: 40px;
+    /*lineacion del texto*/
+    text-align: center;
+    /*Dimenciones de la letra*/
+    font-size: 15px;
+    /*Altura de una casilla remarcada*/
+    line-height: 40px;
+
+}
+
+.recuperar a:hover{
+    /*Color del texto*/
+    color: white;
+    /*Formato de texto*/
+    text-decoration: underline;
+}
+
+.recuperar .botons{
+    /*Ancho del area del contenido del login*/
+    width:100%;
+    /* Define el fondo*/
+    background: #1f53c5;
+    /*No da borde*/
+    border: none;
+    /* Es el margen y relleno asociado a la interfaz de usuario es de forma retangular y el 
+    relleno es el espacio interno entre el cuerpo del elemento de la 
+    interfaz de usuario y su borde.  */ 
+    padding: 12px;
+    /*Color del texto*/
+    color: white;
+    /* Establece el margen del elemento*/
+    margin: 16px 0;
+    /*Dimencion de la letra*/
+    font-size: 16px;
+}
+/*Fin de recuperacion de contraseña*/

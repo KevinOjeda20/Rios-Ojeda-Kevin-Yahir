@@ -1,0 +1,45 @@
+<!--Estructura de nustro HTML5-->
+<!DOCTYPE html>
+<!--Lenguaje-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Coneccion con CSS-->
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <!--Titulo de nuestra primer pagina-->
+    <title>Document</title>
+</head>
+<!--Contenido del documento -->
+<!--Le asigno un fondo al documento en formato .jpg-->
+<body background="imagenes/gato.jpg">
+    <!--Seccion generica del documento-->
+    <!--Creo una clase-->
+    <section class="form-register">
+        <!--Titulo de nustro registro con h4 para que no este tan grande nustro titulo -->
+        <h4 align="center"> Login </h4>
+        <!--input especifica que el usuario deve llenar el control antes de enviarlo al fomulario -->
+        <!--Le aqsigno una clase-->
+        <!--Type determina el tipo de entrada que se va a autilizar-->
+        <!--name y id son identificadores (se recomienda poner el mismo nombre en los 2 para 
+        que sean compatibles)-->
+        <!--placeholder representa el texto provisional, dentro de la caja donde pondrenmos 
+        nuestros datos a patrecera "usuario" que quiere decir que en esa caja 
+        va el usuario-->
+        <input class="controls"type="text" name="usuario" id="usuario" placeholder="usuario">
+        <input class="controls"type="password" name="contraseña" id="contraseña" placeholder="contraseña">
+        <input class="botons" type="submit" value="Iniciar mi cuenta">
+        <!--p nos sirve para hacer un parrafo y la etiqueta a y href permiten 
+        crear un enlace a otra pagina el href es la ruta para mi enlasar mi segunda pagina -->
+        <p> Si no cuentas con una cuenta<a href="formulario.html">registrate aqui</a></p>
+        <p> Olvidaste tu contraseña? <a href="contraseña.html">recuperala a qui</a></p>
+
+    <!--Cerramos mi section-->
+    </section>
+
+<!--Cerramos el contenido del documento-->
+</body>
+<!--Cerramos html-->
+</html>
+<!--Fin del documento -->
