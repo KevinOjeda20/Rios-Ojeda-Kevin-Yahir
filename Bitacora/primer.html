@@ -1,0 +1,893 @@
+<!--Nota-->
+<!-- Toda etiqueta tiene un inicio y un final  por ejemplo "<h1> </h1>"
+se les pone un / enseguida del nombre de la etiqueta para indicar que se cierra 
+esa etiqueta, todo lo que este dentro de una etiqueta se modifica dependiendo de cual etiqueta se use,
+pero en algunas etiquetas no aplica "-->
+
+<!--Inicio de nuestro documento-->
+<!--Indico que es un documento html-->
+<html>
+
+<!-- head contiene toda la informacion sobre nuestro documento -->
+<head> 
+
+<!-- Link es para el tipo de letra que se usara en el documento lo saca de google-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css">
+
+<!--Este link conecta con nuestro archivo CSS por medio de una busqueda 
+en este caso el nombre de la carpeta donde esta situado nuestro archivo CSS y el nombre
+de nuestro archivo CSS-->
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+
+<!--En este link indicamos que en mi carpeta imagenes el archivo bloc es un icono
+esto sirve para implementar un icono a la pagina-->
+<link rel="icon" href="imagenes/bloc.ico">
+
+<!--Titulo de nuestra pagina-->
+<title> Bitacora </title>
+
+<!--Aqui termina nuestro head-->
+</head>
+
+
+<!--"body" representra todo el contenido de nuestra pagina
+(solo puede existir uno)-->
+<body>
+
+<header>
+<div class="caja">
+<h1>Bitacora de clase</h1>
+</div>
+</header>
+
+<!--"hr" sirve para separar los temas de  nustro sitio web 
+con una linea horizontal negra-->
+<hr>
+
+<!--"br" nos sirve para hacer un salto de linea en nustro texto-->
+<!--Algunas etiquetas no tiene un cierre ya que solo insertan un elemento 
+en un lugar específico, estas etiquetas se les llama "etiquetas huerfanas",
+como en este caso "br" y tambien "hr"--> 
+<br>
+
+<!--dive es un "contenedor de bloque" ocupa todo el ancho de la pagina aqui contiene
+las imagenes, titulos y parrafos -->
+<!--Le asigno la clase "proyecto1 "-->
+<!--"class" sirve como un separador ya que a la hora de usar CSS o JavaScript
+podemos modificar un elemento en espesifico con solo agregar el nombre de la clase
+(todo lo que este dentro de la clase se modifica en CSS o JavaScript en un documento aparte)-->
+<div class="contenedor">
+
+    <!--Asignamos el subtitulo de nuestro 1tema con "h1" y le asigno una clase, creamos nuestra 
+    fecha con "h3" pra que sea mas pequeño que el subtitulo-->
+    <h1 class="titulo"> Html5 </h1> <h3>1/2/2023</h3>
+
+    <!--"P", esta etiqueta nos sirve para agregar parrafos a nuestra pagina web-->
+    <!--"strong" es una etiqueta que nos sirve para resaltar cosas importantes del texto 
+    lo que este dentro de strong sen torna de color negro por default pero se
+    puede cambiar el color en CSS-->
+
+    <!--Creamos nuestro primer parrafo-->
+    <p >
+    Que es Html?, Html es un <strong>estandar </strong> y que es un estandar?, un
+    estandar son <strong> reglas </strong>, por ejemplo: cuidar la estructura 
+    sea una aplicacion o pagina web, que se pueda abrir desde cualquier dispositivo
+    y si contiene imagenes estas se acomoden de manera correcta
+    al dispositivo, eso es un  Estandar <strong> que sea 
+    amigable con los usuarios, eso es HTML.</strong>
+     <!--Cerramos nuestro primer parrafo -->
+    </p>
+
+    <br>
+
+    <!--"img" nos permite implementar una imagen en nustra pagina,
+    "src" es una ruta para encontrar mi imagen que quiero poner, la ruta 
+    que deve seguir es: el nombre de la carpeta (donde esta mi imagen) y nombre de la imagen 
+    a compáñado del formato en que este este, en este caso es .jpg -->
+    <img  class="imagen" src="imagenes/html5.jpg">
+
+    <br>
+    <br>
+
+    <!--Creamos el segundo parrafo -->
+    <p>
+    Html significa <strong> Hyper Text Markup Language </strong> o 
+    en español Lenguaje de Hipertexto Marcado <strong>
+    no es un lenguaje de progrmacion ya que no tiene ciclos o condiciones 
+    como otros lenguajes de programacion </strong>, Html es un lenguaje de 
+    <strong> etiquetas </strong> y que es una etiqueta?, es un codigo
+    para dar <strong> estructura y desplegar  </strong> una pagina web,
+    por ejemplo: su contenido como <strong> parrafos, imagenes, titulos, etc.</strong>
+    <!--Cerramos nuestro segundo parrafo -->
+    </p>
+
+    
+
+<!--Cierro mi div -->
+</div>
+
+
+ <!--Linea de separacion -->
+<hr>
+
+ <!--Salto de parrafo-->
+<br>
+
+<!--Creamos un segundo "div"-->
+<!--Apartir de a qui todos mis clases de div se llamaran "contenedor" 
+ya que todos tendran las mismas modificaciones en mi CSS-->
+<div class="contenedor">
+
+    <!--Asignamos el subtitulo de nuestro 2tema con "h1" y le asigno una clase, creamos nuestra 
+    fecha con "h3" pra que sea mas pequeño que el subtitulo-->
+    <h1 class="titulo"> GITHUB </h1> <h3>2/2/2023</h3> 
+    <!--Creo mi parrafo-->
+    <p> 
+    <strong> GITHUB </strong> es una de las principales plataformas para crear proyectos
+    abiertos de herramientas y aplicaciones y se caracteriza por sus 
+    funciones <strong>colaborativas </strong> que ayudan a que todos aporten a
+    mejorar el proyecto, Github te permite <strong> crear repositorios </strong>, 
+    pero que son los repositorios? <strong> los repositorios contienen todos los archivos de 
+    un proyecto sean codigos, carpetas, etc</strong>, y github tiene 2 opciones para los repositorios, <strong>publico y privado </strong>
+    dependiendo de si trabajas en <strong>equipo o solo.</strong>
+    <!--Cierro mi parrafo-->
+    </p>
+    
+    <br>
+    <!--Abro una etiqueta para implementar una imagen y junto le creo una clase para poder 
+    modificar la imagen desde mi hoja de estilos-->
+    <img class="imagen" src="imagenes/github1.jpg">
+    <br>
+    <br>
+    
+      
+    <!--Creo mi segundo parrafo -->
+    <p>
+    Y como su nombre indica utiliza <strong> un sistema de control de verciones
+    Git </strong> un sistema de gestion de verciones con el cual 
+    los desarrolladores pueden <strong> administrar las verciones de sus proyectos </strong>
+    de cada una de las nuevas verciones que sacan de sus aplicaciones para 
+    evitar confuciones.
+    <!--Cierro mi segundo parrafo-->
+    </p>
+    
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+
+    <h1 class="titulo">CSS parte 1</h1> <h3 align="left">7/2/2023</h3>
+
+    <p>
+    El profesor nos dijo que modificaramos nuestra bitacora sin usar Css solo usaramos
+    html, y CSS vendria siendo el que le da diseño a nuestra pagina web
+    </p>
+   
+     <img class="imagen" src="imagenes/css2.jpg">
+
+
+</div>
+
+<br>
+
+<hr>
+
+<div class="contenedor">
+
+    <h1 class="titulo">CSS parte 2</h1> <h3 align="left">8/2/2023</h3>
+
+    <p>
+    Css en sus siglas en ingles para <strong> hojas de estilo en cascada,</strong>
+    es un lenguaje que maneja el diseño y presentacion de las paginas web, es decir,<strong>
+    como lucen cuando un usuario las visita, son capas de "maquillaje"
+    para el sitio web, colores, y lo hace de forma intuitiva y funciona junto con html.</strong>
+    </p>
+
+    
+    <img class="imagen" src="imagenes/css1.jpg">
+    <br>
+    <br>
+       
+    <p>
+    Css funciona como <strong>cajas</strong> en las que contiene diferentes elementos como el <strong>titulo, el contenido de 
+    la pagina y imagenes</strong>, define <strong> cajas rentangulades </strong>, incluyendo sus
+    rellenos y margenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual,
+    Tambien <strong>no</strong> es un lenguaje de programacion, es un <strong> lenguaje de hojas de estilo</strong> y eso 
+    modifica todos los archivos de html.
+    </p>
+
+</div>
+
+<hr> 
+
+<div class="contenedor">
+
+    <h1 class="titulo">CSS parte 3</h1> <h3 align="left">13/2/2023</h3>
+
+    <p>El profesor nos pidio acabar los detallas de nuestra pagina con CSS
+        ya e aprendido a asignar clases y modificarlas en css.
+    </p>
+
+    <img class="imagen" src="imagenes/css3.jpg">
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+    
+    <h1 class="titulo"> Repositorio y presentaciones </h1> <h3>15/2/2023</h3>
+    
+    <p > El dia de hoy creamos nuestro repositorio en github ya que el profesor nos pidio
+        creearlo para subir los cambios de nustra bitacora, tambien paso a varios compañeros 
+        a presentar sus paginas hubo regaños y risas ya que el profe le gusto un diseño 
+        de una compañera en la que su pagina tenia burbujas y tambien le dio 
+        nostalgia ya que una segunda compañera tenia una pagina del 2004. 
+   
+    </p>
+    <img class="imagen" src="imagenes/tiempo.jpg">
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Evolucion del desarrolo web </h1> <h3 align="left">16/2/2023</h3>
+    
+    <p> El dia de hoy el profesor nos dijo que la pagina de space jam de la pelicula original del 96
+        sigue funcionando y nos dijo que le dieramos una revisada y se sintio como un viaje en el tiempo 
+        hay mucha diferencia comparando esa pagina a las de hoy en dias, tambien durante la clase nos 
+        puso a investigar que tanto ha ido evolucionando el desarrolo web y aprendi que <strong>
+        HTML se creo en 1990 y que la primera pagina web fue creada en 1991 y se llamna WORLD WIDE WEB
+        </strong>  y hasta 1995 hasta 1996 fue donde estuvo presente CSS,PHP,JavaScript, y Flash
+        <strong> CSS y PHP proporcionaron mayor simplicidad y dinamismo y Flash y JavaScript aportaron la 
+        interaccion, animacion y efectos especiales,</strong> hasta 2008 fue que se empezo hacer 
+        diseño web para los moviles y de hay a 2010 fue cuando <strong>HTML5</strong> salio a la 
+        luz,  y de hay hasta la actualidad no avido cambios tan grandes en el desarrollo web,
+        eso fue lo que aprendi esta clase.
+    </p>
+
+    <img class="imagen" src="imagenes/space-jam.jpg">
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+
+    <h1 class="titulo"> Login </h1> <h3 align="left">20/2/2023</h3>
+
+    <p >
+        Login, un login es muy <strong>generico </strong> lo mas basico a la hora de creear
+        una pagina web, ¿pero que es un login? un login es la <strong> clasica pantalla donde 
+        te piden un usuario y una cotraseña para poder registrarte en una pagina web </strong> 
+        esta sirve como un <strong>intermedio</strong> entre crear un perfil y la pagina de 
+        inicio, tambien un login tiene que tener un boton de <strong>registro y un hipervinculo 
+        (son aquellos parrafos que cuentan con un color diferente y puedes darles clic)</strong> 
+        que te redirrecionan a otra pagina en caso de no contar con un usuario y contraseña y sele 
+        llama <strong> formularios</strong> que trendras que llenar una serie de datos para llevar 
+        a cabo tu registro.
+    </p>
+    <img class="imagen" src="imagenes/login.jpg">
+
+</div>  
+
+<hr> 
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Contraseña </h1> <h3 align="left">22/2/2023</h3>
+
+    <p >
+    El dia de hoy hisimos un pequeño formulario para que el usuario pueda 
+    recuperar su contraseña en caso de que se le olvide.
+
+    </p>
+    <img class="imagen" src="imagenes/contraseña.jpg">
+
+</div>
+
+<hr> 
+
+<div class="contenedor">
+    
+    <h1 class="titulo"> Proyecto web </h1> <h3 align="left">23/2/2023</h3>
+    
+    <p>
+    El dia de hoy el profesor nos pido que ya estuvira listo nuestro <strong>registro de usuario, login y el
+    formulario para la recuperacion de contraseña,</strong> el profe nos pidio estos avances para el dia de hoy.
+    </p>
+
+    <img class="imagen" src="imagenes/registro.jpg">
+    <img class="imagen" src="imagenes/login.jpg">
+    
+    <p> Tambien el profesor nos comento como implementariamos el "sistema del tio" para que no se saturara 
+        la pagina y nos propuso poner ideas de mejora con sus pros y contras.
+    </p>
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+    
+    <h1 class="titulo"> Examen </h1> <h3 align="left">27/2/2023</h3>
+   
+    <p>
+        El dia de hoy el profesor nos ayudo a dar un repaso de los temas que vendran en el examen 
+        por ejemplo: el profesor nos explico que es HTML5, HTML5 es un <strong> lenguaje estructurado
+        de etiquetas </strong>, o tambien que es CSS?, que vendria siendo una <strong> hoja de estilo
+        estructurada y el diseño a un sitio web, </strong> tambien que son las cajas?, las cajas es cada 
+        uno de los componentes es como una caja por ejemplo: <strong>las etiquetas "h1" que solo afecta a 
+        los titulos o "p" que solo afecta a los parrafos son varias cajas y cada uno tiene sus atributos 
+        que estos son los que modifican a cada una de las etiquetas anteriores esto se hace por medio de CSS 
+        </strong>
+    </p>
+
+    <img class="imagen" src="imagenes/examen.jpg">
+    <br>
+    <br>
+
+    <p> Aparte de eso tambien el profesor nos comento que comensaramos hacer un nuevo index 
+        que hisieramos un menu con minimo 20 articulos de la cafeteria de la escula 
+        ya estamos empezando a creear la pagina para la cafeteria del cetis 155
+    </p>
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+    
+    <h1 class="titulo"> Fin del primer parcial </h1> <h3 align="left">27/2/2023</h3>
+    
+    <p>
+        El dia de hoy el profesor nos dijo que esta bitacora se entrega para el dia 2/2/2023
+        a mas tardar a las 2 pm y tambien nos dejo avanzar con el proyecto del menu todas las horas de
+        su clase esta es la ultima actualizacion de la bitacora del primer parcial.
+    </p>
+    <img class="imagen" src="imagenes/bitacora.jpg">
+</div>
+
+<hr>
+
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3 align="left">1/3/2023</h3>
+   
+    <p>
+    Hoy comensamos con los eqipos en el grupo, empezamos un nuevo proyecto para la cafeteria pero 
+    estabes en grupo, somos un grupo grande nos dividimos en 5 areas distintas <strong> Back end, Front end,
+    Base de datos, Testing y Documentacion y quien tiene el control de estas 5 areas es el Scrum master
+    </strong>, decidi meterme al area de <strong>Back end</strong> para ver que tal me 
+    desempeñaba en la area, para empezar nos pidieron hacer un login para el alumno eso fue todo por el dia de Hoy
+    </p>
+
+    <img class="imagen" src="imagenes/back.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>2/3/2023</h3>
+   
+    <p>
+        El dia de hoy continua con mi equipo para lograr hacer el login para el usuario 
+        estuvimos investigando sobre como podriamos hacerlo ya que estamos usando PHP, despues de un rato
+        logramos hacer el login y conectarlo a la base de datos solo que teniamos algunos errores
+
+    </p>
+
+    <img class="imagen" src="imagenes/usuario.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>6/3/2023</h3>
+   
+    <p>
+     Segimos con el login solo que resolvimos unos errores de la clase anterior 
+     como el inicio de sesion que no nos redirige a ningun lado.
+    
+    </p>
+
+    <img class="imagen" src="imagenes/error.png">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>8/3/2023</h3>
+   
+    <p>
+        Logramos poder hacer el login para el usuario ahora 
+        la tarea de hoy es hacer 2 tablas para el administrador en las que 
+        se puedan administrar el personal y el menu de la cefeteria, comence 
+        investigando sobre esas tablas en youtube y encontre una interesante usando
+        solo php le comente a mi equipo y las comense hacer.
+    
+    </p>
+
+    <img class="imagen" src="imagenes/youtube.jpg">
+    <img class="imagen" src="imagenes/programa.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>13/3/2023</h3>
+   
+    <p>
+    El video que encontre se repartia en 3 partes comense con el primero
+    en donde empieza a darle los funcionamientos basicos como mostrar los datos en la tabla solo que
+    tuve problemas con las conexiones entre archivos PHP
+    y tambien con los campos, pude arreglar las conexiones entre archivos php y avanse un poco con 
+    los nombre de los campos.
+    </p>
+
+    <img class="imagen" src="imagenes/error1.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>15/3/2023</h3>
+   
+    <p>
+    Hoy continue con la tabla arregle los nombres de los campos, probe la 
+    tabla pero me salto un error a la hora de insertar datos, le di una revisada al codigo 
+    para ver donde se encontraba el error y encontre que los nombres de los campos en donde 
+    se insertan los datos estaban mal.
+    </p>
+
+    <img class="imagen" src="imagenes/hu-tao.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>16/3/2023</h3>
+   
+    <p>
+    El dia de hoy corregi los nombre de los campos en donde se insertan los 
+    datos y pude resolverlo.
+    </p>
+
+    <img class="imagen" src="imagenes/logro.jpg">
+
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>20/3/2023</h3>
+   
+    <p>
+    El dia de hoy me pase a la 2 parte de los videos para hacer las tablas 
+    estuve agregando un buscador a la tabla.
+    </p>
+
+    <img class="imagen" src="imagenes/buscador.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>22/3/2023</h3>
+   
+    <p>
+    El dia de hoy termine de agregar el buscador por completo y me pase al 3 video 
+    el ultimo para terminar la tabla bien.
+    </p>
+
+    <img class="imagen" src="imagenes/Sacarosa.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>23/3/2023</h3>
+   
+    <p>
+     El dia de hoy termine por completo la tabla del personal ya incluye un buscador y tambien 
+     el 3 video era solo para traducir al español ciertas cosas, tambien empese adaptar la tabla del personal
+     para la del menu de la cafeteria.
+    </p>
+
+    <img class="imagen" src="imagenes/logro2.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>27/3/2023</h3>
+   
+    <p>
+    El dia logre avansar para adaptar la tabla de la cafeteria logre que 
+    en la tabla me muestre los productos tambien cambie los campos de la tabla.
+    </p>
+
+    <img class="imagen" src="imagenes/hu-tao2.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>29/3/2023</h3>
+   
+    <p>
+    El dia de hoy casi termino de adaptar la tabla solo me falta agregar el buscador 
+    para que quede lista la tabla de menu.
+    </p>
+
+    <img class="imagen" src="imagenes/buscador.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>30/3/2023</h3>
+   
+    <p>
+    Logre terminar de adaptar la tabla para el menu.
+    </p>
+
+    <img class="imagen" src="imagenes/logro.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>3/4/2023</h3>
+   
+    <p>
+    El dia de hoy estube viendo el login y me fije que le faltaban 
+    algunas cosas entre ellas una verificacion y tambien tenia dudas sobre 
+    como ingresaria el administrador le pregunte a mi profesor y comento
+    que los administradores ya tiene cuentas echas y estas estan en la base de datos
+    y que solo faltaria la validacion que estaria por medio de roles 
+    si es un numero 1 es admin y si es 2 es alumno le comente al equipo de base de datos 
+    sobre las cuentas y me dijieron que me pasarian la base de datos con los usuarios 
+    agregados.
+    </p>
+
+    <img class="imagen" src="imagenes/cansancio.png">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>5/4/2023</h3>
+   
+    <p>
+        El dia de hoy estuve cambiando las base de datos de las tablas y el login ya que 
+        nos confuncimos mucho con las base de datos y tenia muchas unas eran verciones viejas otras
+        ya ni se usaban estuve revisando y preguntando al equipo de base de datos cuales eran las bases de datos
+        actuales y que se usarian para los 2 programas.
+    
+    </p>
+
+    <img class="imagen" src="imagenes/confucion.jpg">
+
+    <p> 
+
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>6/4/2023</h3>
+   
+    <p>
+    El dia de hoy logre implementar las bases de datos correctas y elimine las base de datos que ya 
+    no servian.
+    </p>
+
+    <br>
+
+    <img class="imagen" src="imagenes/base de datos.png">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>10/4/2023</h3>
+   
+    <p>
+    El dia de hoy estuve viendo con mi equipo referente al login le comente al Scrum master 
+    como iva a funcionar el login y me encargo investigar sobre eso.
+    
+    </p>
+
+    <img class="imagen" src="imagenes/lupa.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>12/4/2023</h3>
+   
+    <p>
+    Le comente a mi equipo que investigara sobre lo que falta del login.
+    </p>
+
+    <img class="imagen" src="imagenes/investigacion.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>13/4/2023</h3>
+   
+    <p>
+    El dia de hoy estuve bien con mis compañeros sobre el diseño del login y decidi comentarle a front sobre
+    el diseño de este y tambien hoy fue la ultima clase del 2 parcial
+    el profesor nos asusto a todo el grupo ya que queria la bitacora para hoy y algunos se nos olvido 
+    actualizar la bitacora pero decidio mejor que se entregara 
+    a final del 3 parcial.
+    </p>
+
+    <img class="imagen" src="imagenes/back-front.png">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>8/5/2023</h3>
+   
+    <p>
+        Estuve viendo como arreglar unos errores en el programa y tambien 
+        acompañe a base de datos con el profesor para resolver una duda referente al pago que 
+        se hara en la base de datos 
+    </p>
+
+    <img class="imagen" src="imagenes/duda.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>11/5/2023</h3>
+   
+    <p>
+       Estuve viendo con mi equipo lo que falta sobre el login 
+       estuvimos implementando una sesion iniciada y tambien el profesor nos pidio un carrito
+       de compras junto con un tiket en el que biene la compra.
+    </p>
+
+    <img class="imagen" src="imagenes/carrito.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>17/5/2023</h3>
+   
+    <p>
+        El dia de hoy terminamos la sesion iniciada a la hora de iniciar sesion aparece el nombre del 
+        usuario en la pagina principal. 
+        
+    </p>
+
+    <img class="imagen" src="imagenes/logro.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>18/5/2023</h3>
+   
+    <p>
+       El dia de hoy mi equipo y yo estuvimos investigando  como implementar la 
+       verificacion del rol del usuario le preguntamos al profesor referente a la 
+       verificacion me comento que en la consulta  en la que se llama a la tabla donde estan
+       los datos del usuario tambien se deve llamar todo lo que este en la 2 tabla que es 
+       donde estan los roles y apartir de hay implementarlo a la condicion para iniciar sesion
+       tambien me dio unas recomendaciones para mejor la seguridad de mi consulta a la base de datos.
+
+    </p>
+
+    <img class="imagen" src="imagenes/lupa.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>22/5/2023</h3>
+   
+    <p>
+        Estuve con mi equipo preguntandonos como podriamos hacer la condicon para validar el rol
+        estuvimos intentando pero no lo conseguimos.
+    </p>
+
+    <img class="imagen" src="imagenes/duda.jpg">
+
+    <p> 
+    </p>
+
+
+</div>
+
+<hr>
+
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>24/5/2023</h3>
+   
+    <p>
+        Resolvi una duda referente a los metodos de pago que se usaran en el programa 
+        el profesor me comento que se usaran <strong> 2 metodos de pago paypal y en efectivo </strong>
+        y tambien sobre los datos que llevara el <strong> ticket de la compra </strong>, tambien el profesor me 
+        comento que el metodo de pago en efectivo seria a traves de un codigo <strong> Qr</strong>
+    </p>
+
+    <img class="imagen" src="imagenes/pay-pal.jpg">
+    <img class="imagen" src="imagenes/efectivo.jpg">
+    
+
+    <p> 
+    </p>
+
+</div>
+
+<hr>
+
+<div class="contenedor">
+   
+    <h1 class="titulo"> Proyecto Beta </h1> <h3>25/5/2023</h3>
+   
+    <p>
+        El dia de hoy segui investigando metodos para logar validar el rol del usuario y tambien 
+        es el fin del 3 parcial esta es la ultima actualizacion de la bitacora de este parcial.
+    </p>
+
+    <img class="imagen" src="imagenes/lupa.jpg">
+
+    <p> 
+    </p>
+
+</div>
+
+</body>
+
+</html>
+<!--Fin del documento -->

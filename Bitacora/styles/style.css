@@ -1,8 +1,29 @@
+/*Selector de todos los elementos */
+*{
+    /*Permite modificar el margen en general (de los 4 lados de un elemento)*/
+    margin:0;
+    /*Crea un relleno para los bordes*/
+    padding: 0;
+    /*calcula el ancho y alto de un elemento*/
+    box-sizing: border-box;
+    /* Fuente de la letra*/
+    font-family: sans-serif;
+}
+
 html{
     font-size: 20px;/*pxquiere decir que "pixeles: el tamaño de la fuente base es ahora de 10 pixeles de altura */
     font-family: "Open Sans",sans-serif;/*Este debe ser el resto del resultado que obtuviste de google fonts*/
 }
 
+.caja h1{
+    display: flex;
+    color: aliceblue;
+    box-shadow: 7px 13px 37px #000;
+    justify-content: center;
+    height: 90px;
+    background-color:rgb(20, 20, 75)
+
+}
 
 
 /* Modifica los parrafos en general */
@@ -16,6 +37,7 @@ p{
 }
 
 
+
 /*Modifica todo el contenido de nuestro documento */
 body{
     /*Nos permite acomodar el texto de nuestra pagina mediante el margen
@@ -23,6 +45,7 @@ body{
     mediante pixeles */
     margin-left: 60px;
     margin-right: 60px;
+    margin: 0;  
 }
 
 /*Elemento de frase */
@@ -32,26 +55,21 @@ strong{
 }
 
 
-/*Selector de todos los elementos */
-*{
-    /*Permite modificar el margen en general (de los 4 lados de un elemento)*/
-    margin:0;
-    /*Crea un relleno para los bordes*/
-    padding: 0;
-    /*calcula el ancho y alto de un elemento*/
-    box-sizing: border-box;
-    /* Fuente de la letra*/
-    font-family: sans-serif;
-}
-
-
 /*Caja de para modificar nustra clase "proyecto 1" y
 lo que contiene*/
-.proyecto1{
+.contenedor{
+    margin: 150px auto;
     /*Ancho del area*/
-    width: 100%;
-    /* Ancho maximo */
-    max-width: 1000px;
+    width: 700px;
+}
+
+.imagen{
+    max-width: 320px;
+    border-radius: 10px;
+    margin-right:20px ;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+    
 }
 
 /* Modificaciones de las imagenes*/
